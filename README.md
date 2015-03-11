@@ -2,7 +2,9 @@
 
 ## Authors:
 Steve Damon
+
 Andrew Plassard
+
 Benjamin Yvernault
 
 ## Overview
@@ -10,7 +12,16 @@ The purpose of DAX Interface is to develop a user-friendly means of access to th
 
 ## Requirements
 python 2.7
+
 virtualenv library
+
 some database running SQL
 
-## Setup
+## Development setup
+cd <dax-interface directory>
+
+sudo pip install virtualenv
+
+virtualenv venv
+
+pip install -r requirements
